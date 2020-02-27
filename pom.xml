@@ -31,6 +31,18 @@
             </plugin>
         </plugins>
     </build>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>libs-snapshot</name>
+            <url>http://localhost:8082/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>
+        <repository>
+            <id>central</id>
+            <name>cristobal-Lenovo-ThinkBook-13s-IWL-releases</name>
+            <url>http://localhost:8082/artifactory/libs-release-local</url>
+        </repository>
+    </distributionManagement>
 
 
 </project>
